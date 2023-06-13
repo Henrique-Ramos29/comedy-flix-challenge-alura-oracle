@@ -11,13 +11,12 @@ const ContainerCabecalho = styled.header`
   justify-content: space-between;
   padding: 21px;
 
-`
+`;
 
 const ImageCabecalho = styled.img`
   background: transparent;
   border-radius: 3px;
-
-`
+`;
   
 
 

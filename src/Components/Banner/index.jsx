@@ -11,7 +11,7 @@ const BannerContainer = styled.main`
 
 const ImageBanner = styled.img`
    width: 100%;
-   opacity: 40%; 
+   opacity: 40%;
 
 `;
 

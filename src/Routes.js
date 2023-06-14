@@ -30,7 +30,7 @@ function AppRoutes() {
 
   const inicial = [
     {
-      id: uuidv4(),
+      id: uuidv4(), 
       nome: 'Eu a patroa e as crianças',
       imagem: 'https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/2D0840F2BBF52D8B5F57E3B89E923DE952D1790D9B01299F3EA0AF5798A3B985/scale?width=506&aspectRatio=2.00&format=jpeg',
       video: 'https://www.youtube.com/watch?v=IW8fwVdtbgw&t=6s',

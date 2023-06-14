@@ -15,23 +15,12 @@ const ImageBanner = styled.img`
 
 `;
 
-const Paragrafo = styled.p`
-  position: absolute;
-  color: var(--azul-primario);
-  font-size: 60px;
-  top: 700px;
-  left: 305px;
-  font-weight: bold;
-
-`;
-
 
 export default function Banner() {
      return(
       <>
         <BannerContainer>
             <ImageBanner src={GifBanner} alt="Imagem do Banner" />
-            <Paragrafo>Comedy Flix videos selecionados</Paragrafo>
         </BannerContainer>
       </>
      )

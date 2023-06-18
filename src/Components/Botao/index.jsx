@@ -7,7 +7,7 @@ const BotaoPrincipal = styled.button`
   border: solid var(--azul-primario);
   color: white;
   font-size: 19px;
-  padding: 0px 30px;
+  padding: 9px 20px;
   border-radius: 5px;
   margin: 10px 0px;
   cursor: pointer;

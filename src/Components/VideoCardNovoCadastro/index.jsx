@@ -8,6 +8,7 @@ const Container = styled.div`
 
 const Div = styled.div` 
   align-items: center;
+ 
 
 `;
 
@@ -34,7 +35,7 @@ const VideoCardNovoCadastro = ({ novoVideo, imagem, nome, video, aoDeletar }) =>
             />
          <Div>
          <A href={novoVideo.video}>
-            <ImageC src={novoVideo.imagem} alt={novoVideo.nome} width="210" height="270" />
+            <ImageC src={novoVideo.imagem} alt={novoVideo.nome} width="200" height="350" />
             <TitleV>{novoVideo.nome}</TitleV>
          </A>
          </Div>

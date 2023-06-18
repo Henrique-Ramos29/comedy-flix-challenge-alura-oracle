@@ -4,30 +4,41 @@ import styled from 'styled-components'
 const DivLista = styled.div`
     display: flex;
     flex-direction: column;
-`
+    box-sizing: border-box;
+    margin-bottom: 1rem;
+
+    @media screen and (max-width: 760px) {
+         margin-right: 19px;
+         margin-left: -10px;
+    }
+
+    @media screen and (max-width: 460px) {
+         margin-right: 19px;
+         margin-left: -10px;
+    } 
+`;
 
 const LabelLista = styled.label`
-    margin-left: 41px;
+    display: block;
+    margin-left: 40px;
     margin-bottom: 12px;
     font-weight: bold;
     color: var(--azul-primario);
-`
+`; 
+
 const SelectLista = styled.select`
-    width: 360px;
+    width: 90%;
     padding: 12px 20px;
-    margin: 8px 0;
     display: inline-block;
     border: 4px solid var(--azul-primario);
     border-radius: 4px;
     box-sizing: border-box;
-    max-width: 90%;
-    margin: 0 auto;
+    margin: 0px auto 1px 34px;
     margin-bottom: 30px;
     font-size: 20px ;
     font-weight: bold;
-    margin-left: 41px;
     
-`
+`;
 
 
 const ListaSuspensa = (props) => {

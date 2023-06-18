@@ -26,30 +26,30 @@ const CarouselNovoCadastro = ({ lista, videoNovo, aoDeletar})  => {
       dots: true,
       infinite: false,
       speed: 300,
-      slidesToShow:  5,
+      slidesToShow:  6,
       slidesToScroll: 5,
       responsive: [
         {
-          breakpoint: 1024,
+          breakpoint: 750,
           settings: {
-            slidesToShow: 3,
-            slidesToScroll: 3,
+            slidesToShow: 4,
+            slidesToScroll: 4,
             infinite: true,
             dots: true
           }
         },
         {
-          breakpoint: 600,
+          breakpoint: 500,
           settings: {
             slidesToShow: 2,
             slidesToScroll: 2
           }
         },
         {
-          breakpoint: 480,
+          breakpoint: 400,
           settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1
+            slidesToShow: 2,
+            slidesToScroll: 2
           }
         }
     

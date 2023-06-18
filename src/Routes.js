@@ -30,7 +30,7 @@ function AppRoutes() {
 
   const inicial = [
     {
-      id: uuidv4(), 
+      id: uuidv4(),
       nome: 'Eu a patroa e as crianças',
       imagem: 'https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/2D0840F2BBF52D8B5F57E3B89E923DE952D1790D9B01299F3EA0AF5798A3B985/scale?width=506&aspectRatio=2.00&format=jpeg',
       video: 'https://www.youtube.com/watch?v=IW8fwVdtbgw&t=6s',
@@ -69,6 +69,13 @@ function AppRoutes() {
       nome: 'Chavez',
       imagem: 'https://m.media-amazon.com/images/I/814wYjczd8L._AC_UF1000,1000_QL80_.jpg',
       video: 'https://www.youtube.com/watch?v=OgHslj4k8Uw',
+      lista: listaCategoria[0].nome
+    },
+    {
+      id: uuidv4(),
+      nome: 'Arnold',
+      imagem: 'https://media.fstatic.com/OFR-37CgsB8ABqkhGyKGUxMduKc=/322x478/smart/filters:format(webp)/media/movies/covers/2010/11/7ba0fb0acc9a1391585a9a1ebdc46e17.jpg',
+      video: 'https://www.youtube.com/watch?v=Ol9odwDsGLQ',
       lista: listaCategoria[0].nome
     },
     {
@@ -112,9 +119,16 @@ function AppRoutes() {
       imagem: 'https://m.media-amazon.com/images/I/618FiO7H+sS._AC_UF894,1000_QL80_.jpg',
       video: 'https://www.youtube.com/watch?v=v_TzLQ1QH8U',
       lista: listaCategoria[1].nome
+    },
+    {
+      id: uuidv4(),
+      nome: 'Vovózona 2',
+      imagem: 'https://cinemacomrapadura.com.br/imagens/2014/12/20141220-vovozona2.jpg',
+      video: 'https://www.youtube.com/watch?v=Ol9odwDsGLQ',
+      lista: listaCategoria[1].nome
     }
   ]
-  
+
   const [videoNovo, setNovo] = useState(inicial)
 
 

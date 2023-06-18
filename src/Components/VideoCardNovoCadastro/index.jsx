@@ -7,13 +7,15 @@ const Container = styled.div`
 `;
 
 const Div = styled.div` 
-  align-items: center;
  
 
 `;
 
 const ImageC = styled.img`
-
+  
+  @media screen and (max-width: 450px) {
+         width: 166px;
+    }
 `;
 
 const TitleV = styled.h2`
@@ -35,7 +37,7 @@ const VideoCardNovoCadastro = ({ novoVideo, imagem, nome, video, aoDeletar }) =>
             />
          <Div>
          <A href={novoVideo.video}>
-            <ImageC src={novoVideo.imagem} alt={novoVideo.nome} width="200" height="350" />
+            <ImageC src={novoVideo.imagem} alt={novoVideo.nome} width="200" height="250" />
             <TitleV>{novoVideo.nome}</TitleV>
          </A>
          </Div>

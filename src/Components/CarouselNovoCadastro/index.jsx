@@ -6,12 +6,12 @@ import styled from "styled-components"
 import VideoCardNovoCadastro from '../VideoCardNovoCadastro';
 
 const ContainerCarousel = styled.div`
-    max-width: 1300px;
-    align-items: center;
-    margin-left: 25px;
+    max-width: 1350px;
+    margin-left: 75px;
     margin-top: 20px;
     color:  var(--azul-primario);
-`
+    margin: 50px;
+`;
 
 const TitleCategoria = styled.h2`
   margin-bottom: 15px;

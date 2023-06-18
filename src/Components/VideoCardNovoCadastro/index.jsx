@@ -13,8 +13,12 @@ const Div = styled.div`
 
 const ImageC = styled.img`
   
-  @media screen and (max-width: 450px) {
-         width: 166px;
+  @media screen and (max-width: 460px) {
+         width: 155px;
+    }
+
+    @media screen and (max-width: 420px) {
+         width: 130px;
     }
 `;
 
